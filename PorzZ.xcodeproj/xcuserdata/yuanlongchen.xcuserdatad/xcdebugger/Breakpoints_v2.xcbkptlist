@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CF2D7929-37CB-449A-8B89-AFF251B35C13"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C6ED6F8-9034-4990-81DD-FD606D8FF51C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89642F8F-6977-40E0-854E-7A345E2C9623"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzCard/PorzzCardCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3267343-A6C5-4751-8D52-CF066B09FCFE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "tried"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E3267343-A6C5-4751-8D52-CF066B09FCFE - effb9f9bda82582a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzCardTitleCollectionViewCell.init(frame: __C.CGRect) -&gt; PorzZ.PorzzCardTitleCollectionViewCell"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1416">
+               </Location>
+               <Location
+                  uuid = "E3267343-A6C5-4751-8D52-CF066B09FCFE - 7a368a7a95b2fcbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzCardTitleCollectionViewCell.tried.didset : Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "E3267343-A6C5-4751-8D52-CF066B09FCFE - 7a368a7a95b2fcbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzCardTitleCollectionViewCell.tried.didset : Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6365DD93-8EE0-401D-AF0D-A3E9DBCAA164"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "tryButton"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6365DD93-8EE0-401D-AF0D-A3E9DBCAA164 - f183616b9141fc52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzCardTitleCollectionViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PorzZ.PorzzCardTitleCollectionViewCell&gt;"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "6365DD93-8EE0-401D-AF0D-A3E9DBCAA164 - d1f03f84acb8b99d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzCardTitleCollectionViewCell.tryButton.didset : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "6365DD93-8EE0-401D-AF0D-A3E9DBCAA164 - 28f54e35c212d77a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzCardTitleCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PorzZ.PorzzCardTitleCollectionViewCell&gt;"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "6365DD93-8EE0-401D-AF0D-A3E9DBCAA164 - d1f03f84acb8b99d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzCardTitleCollectionViewCell.tryButton.didset : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzCard/PorzzCardTitleCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA63E361-527C-4170-B303-45BC5C8E7A6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA63E361-527C-4170-B303-45BC5C8E7A6A - 8b57a2321fb421c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in PorzZ.PorzzSearchViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1620">
+               </Location>
+               <Location
+                  uuid = "DA63E361-527C-4170-B303-45BC5C8E7A6A - 8b57a2321fb421c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in PorzZ.PorzzSearchViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2AAD7A9-49C5-45C9-A62C-34A490780BF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "tabBarController(_:shouldSelect:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2AAD7A9-49C5-45C9-A62C-34A490780BF8 - 1cce120ab711de2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzSearchViewController.tabBarController(_: __C.UITabBarController, shouldSelect: __C.UIViewController) -&gt; Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "E2AAD7A9-49C5-45C9-A62C-34A490780BF8 - 1cce120ab711dc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzSearchViewController.tabBarController(_: __C.UITabBarController, shouldSelect: __C.UIViewController) -&gt; Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "E2AAD7A9-49C5-45C9-A62C-34A490780BF8 - 1cce120ab711c66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzSearchViewController.tabBarController(_: __C.UITabBarController, shouldSelect: __C.UIViewController) -&gt; Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "1724">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6705D28E-7409-44EE-843D-895A2E9073DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzSearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "tabBarController(_:shouldSelect:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6705D28E-7409-44EE-843D-895A2E9073DC - 1cce120ab711da4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzSearchViewController.tabBarController(_: __C.UITabBarController, shouldSelect: __C.UIViewController) -&gt; Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "1436">
+               </Location>
+               <Location
+                  uuid = "6705D28E-7409-44EE-843D-895A2E9073DC - 1cce120ab711da4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzSearchViewController.tabBarController(_: __C.UITabBarController, shouldSelect: __C.UIViewController) -&gt; Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "1272">
+               </Location>
+               <Location
+                  uuid = "6705D28E-7409-44EE-843D-895A2E9073DC - 1cce120ab711da4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzSearchViewController.tabBarController(_: __C.UITabBarController, shouldSelect: __C.UIViewController) -&gt; Swift.Bool"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzSearchViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16828C45-E4CE-48F1-990B-423FD9740B13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzMainCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16828C45-E4CE-48F1-990B-423FD9740B13 - ee615de505245455"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzMainCollectionViewCell.init(frame: __C.CGRect) -&gt; PorzZ.PorzzMainCollectionViewCell"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzMainCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "12876">
+               </Location>
+               <Location
+                  uuid = "16828C45-E4CE-48F1-990B-423FD9740B13 - ee615de505245455"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PorzZ.PorzzMainCollectionViewCell.init(frame: __C.CGRect) -&gt; PorzZ.PorzzMainCollectionViewCell"
+                  moduleName = "PorzZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuanlongchen/workplace/projects/PorzZ/PorzZ/PorzzMainCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "12880">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CC648D6-44DC-404F-8B3D-6EDE2535FF2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/PorzzMainCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E26F3828-51DF-4A92-9ACD-9CC838D6D2C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8621730-76D8-4206-AA4B-FE210761DD0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PorzZ/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
