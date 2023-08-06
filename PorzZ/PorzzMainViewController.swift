@@ -14,7 +14,6 @@ private let porzzMainCollectionViewCellIdetifier = "PorzzMainCollectionViewCellI
 private let porzzMainCollectionViewChooseCellIdentifier = "PorzzMainCollectionViewChooseCellIdentifier"
 private let porzzMainCollectionViewQuoteCellIdentifier = "PorzzMainCollectionViewQuoteCellIdentifier"
 
-
 private let quoteStringAttibutes: [NSAttributedString.Key: Any] = [
     .font: UIFont.italicSystemFont(ofSize: 17),
     .foregroundColor: UIColor.brown
@@ -40,6 +39,7 @@ class PorzzMainViewController: UIViewController, UICollectionViewDataSource, UIC
     
     var timer: Timer?
     
+    var timerCounter: Int64 = 0
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 1
@@ -84,8 +84,8 @@ class PorzzMainViewController: UIViewController, UICollectionViewDataSource, UIC
                 if let randomQuote = getQuoteOfTheDay() {
                     quote = randomQuote
                 }
-        
-                let quoteContent = quote.components(separatedBy: "—")
+                
+                let quoteContent = quote.components(separatedBy: "#")
                 
                 let quoteString = quoteContent[0].trimmingCharacters(in: .whitespaces)
                 let quoteWho = "-- " + quoteContent[1].trimmingCharacters(in: .whitespaces)
@@ -136,14 +136,14 @@ class PorzzMainViewController: UIViewController, UICollectionViewDataSource, UIC
         ])
         
         
-        // spacing between different sections 
+        // spacing between different sections
         if let layout = porzzMainCollectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             layout.headerReferenceSize = CGSize(width: 0, height: 10)
         }
         
         
         // update position of the day
-        timer = Timer.scheduledTimer(timeInterval: 30.0,
+        timer = Timer.scheduledTimer(timeInterval: 10.0,
                                      target: self,
                                      selector: #selector(refreshCells),
                                      userInfo: nil,
@@ -157,48 +157,58 @@ class PorzzMainViewController: UIViewController, UICollectionViewDataSource, UIC
     }
     
     @objc func refreshCells() {
+        timerCounter += 1
         if let cell = porzzMainCollectionView.cellForItem(at: IndexPath(row: 0, section: 0)) as? PorzzMainCollectionViewCell {
             cell.randomPosition = cell.getRandomPosition()
+            porzzMainCollectionView.reloadData()
         }
-        porzzMainCollectionView.reloadData()
     }
-    
-    
-    private func computeHeightOfQuoteCell(for quote: String) -> CGSize {
-        let maxSize = CGSize(width: porzzMainCollectionView.bounds.width, height: .greatestFiniteMagnitude)
-
-
-        let quoteContent = quote.components(separatedBy: "—")
         
-        let quoteString = quoteContent[0].trimmingCharacters(in: .whitespaces)
-        let quoteWho = quoteContent[1].trimmingCharacters(in: .whitespaces)
+        //    @objc func refreshQuote() {
+        //        if timerCounter%2 == 0 {
+        //            if let cell = porzzMainCollectionView.cellForItem(at: IndexPath(row: 0, section: 2)) as? PorzzMainCollectionViewQuoteCell {
+        //                cell.quoteLabel.text = getQuoteOfTheDay()
+        //            }
+        //            porzzMainCollectionView.reloadData()
+        //        }
+        //    }
+        
+        private func computeHeightOfQuoteCell(for quote: String) -> CGSize {
+            let maxSize = CGSize(width: porzzMainCollectionView.bounds.width, height: .greatestFiniteMagnitude)
+            
+            
+            let quoteContent = quote.components(separatedBy: "#")
+            
+            let quoteString = quoteContent[0].trimmingCharacters(in: .whitespaces)
+            let quoteWho = quoteContent[1].trimmingCharacters(in: .whitespaces)
+            
+            
+            let textRectForQuoteString = (quoteString as NSString).boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: quoteStringAttibutes, context: nil)
+            let quoteHeight = textRectForQuoteString.height
+            
+            let textRectForWho = (quoteWho as NSString).boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: whoAttibutes, context: nil)
+            
+            let whoHeight = textRectForWho.height
+            
+            let width = porzzMainCollectionView.bounds.width
+            return CGSize(width: width, height: ceil(quoteHeight + whoHeight + CGFloat(20)))
+        }
         
         
-        let textRectForQuoteString = (quoteString as NSString).boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: quoteStringAttibutes, context: nil)
-        let quoteHeight = textRectForQuoteString.height
+        private func randomElement<T>(from collection: [T], seed: UInt64) -> T? {
+            guard !collection.isEmpty else { return nil }
+            
+            let source = GKLinearCongruentialRandomSource(seed: seed)
+            let index = source.nextInt(upperBound: collection.count)
+            return collection[index]
+        }
         
-        let textRectForWho = (quoteWho as NSString).boundingRect(with: maxSize, options: .usesLineFragmentOrigin, attributes: whoAttibutes, context: nil)
-        
-        let whoHeight = textRectForWho.height
-                
-        let width = porzzMainCollectionView.bounds.width
-        return CGSize(width: width, height: ceil(quoteHeight + whoHeight + CGFloat(20)))
+        private func getQuoteOfTheDay() -> String? {
+            let date = Date()
+            let calendar = Calendar.current
+            let startOfDay = calendar.startOfDay(for: date)
+            let seed = UInt64(startOfDay.timeIntervalSince1970)
+            return randomElement(from: Quotes.shared.allQuotes, seed: seed)
+            
+        }
     }
-    
-    
-    private func randomElement<T>(from collection: [T], seed: UInt64) -> T? {
-        guard !collection.isEmpty else { return nil }
-        
-        let source = GKLinearCongruentialRandomSource(seed: seed)
-        let index = source.nextInt(upperBound: collection.count)
-        return collection[index]
-    }
-    
-    private func getQuoteOfTheDay() -> String? {
-        let date = Date()
-        let calendar = Calendar.current
-        let startOfDay = calendar.startOfDay(for: date)
-        let seed = UInt64(startOfDay.timeIntervalSince1970)
-        return randomElement(from: Quotes.shared.allQuotes, seed: seed)
-    }
-}

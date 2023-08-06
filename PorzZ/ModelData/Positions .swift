@@ -95,14 +95,6 @@ extension Position {
 
 
 
-
-
-
-
-
-
-
-
 private let positionsRaw = [
     ["name": "Stand and Deliver",
      "imageName": "men-shealth-stand-deliver-1581102532",

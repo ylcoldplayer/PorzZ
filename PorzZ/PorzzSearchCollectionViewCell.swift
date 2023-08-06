@@ -97,7 +97,7 @@ class PorzzSearchCollectionViewCell: UICollectionViewCell {
         knowMoreButton.backgroundColor = Constants.Colors.lightBlackExtra
         knowMoreButton.layer.cornerRadius = contentView.frame.height * 0.15
         contentView.addSubview(knowMoreButton)
-        
+            
         knowMoreButton.translatesAutoresizingMaskIntoConstraints = false
         let buttonOffsetValue = CGFloat(15)
         let buttonHeightScaleValue = contentView.frame.size.height/8.0

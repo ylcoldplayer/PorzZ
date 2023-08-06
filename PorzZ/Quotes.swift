@@ -10,67 +10,67 @@ import Foundation
 struct Quotes {
     static let shared = Quotes()
     
-    var allQuotes = [
-        "It’s work having a vagina. Guys don’t think that it’s work but it is. You think it shows up like that to the event? It doesn’t. Every night it’s like getting it ready for its first Quinceanera, believe me. — Amy Schumer",
-        "Good sex is like good bridge. If you don’t have a good partner, you’d better have a good hand. ― Mae West",
-        "We have reason to believe that man first walked upright to free his hands for masturbation. ― Lily Tomlin",
-        "We have reason to believe that man first walked upright to free his hands for masturbation. ― Lily Tomlin",
-        "If you wear a short enough skirt, the party will come to you. ― Dorothy Parker",
-        "Usually I’m on top to keep the guy from escaping. — Lisa Lampanelli",
-        "In my sex fantasy, nobody ever loves me for my mind. — Nora Ephron",
-        "I think we can all agree that sleeping around is a great way to meet people. — Chelsea Handler",
-        "Women fake orgasms and men fake finances. ― Suze Orman",
-        "My boyfriend and I live together, which means we don’t have sex—ever. Now that the milk is free, we’ve both become lactose intolerant. — Margaret Cho",
-        "I like threesomes with two women, not because I’m a cynical sexual predator. Oh no! But because I’m a romantic. I’m looking for “The One.” And I’ll find her more quickly if I audition two at a time. – Russell Brand",
-        "Publishing a sophisticated men’s magazine seemed to me the best possible way of fulfilling a dream I’d been nurturing ever since I was a teenager: to get laid a lot. – Hugh Hefner",
-        "Skiing is better than sex actually, because for me a good round of sex might be seven minutes. Skiing you can do for seven hours. – Spalding Gray",
-        "If I’m not interested in a woman, I’m straight-forward. Right after sex, I usually say, ‘I can’t do this anymore. Thanks for coming over!' –– Vince Vaughn",
-        "It’s been so long since I’ve had sex I’ve forgotten who ties up whom. – Joan Rivers",
-        "If you want to get laid, go to college. If you want an education, go to the library. – Frank Zappa",
-        "Women need a reason to have sex. Men just need a place. – Billy Crystal",
-        "Is one expected to be a gentleman when one is stiff? – Marquis de Sade",
-        "I have no objection to anyone’s sex life as long as they don’t practice it in the street and frighten the horses. ― Oscar Wilde",
-        "Sex appeal is fifty percent what you’ve got and fifty percent what people think you’ve got. — Sophia Loren",
-        "Some things are better than sex, and some are worse, but there’s nothing exactly like it. — W. C. Fields",
-        "An intellectual is a person who’s found one thing that’s more interesting than sex. — Aldous Huxley",
-        "Sex without love is merely healthy exercise. — Robert A. Heinlein",
-        "Money, it turned out, was exactly like sex, you thought of nothing else if you didn’t have it and thought of other things if you did. — James A. Baldwin",
-        "There’s nothing better than good sex. But bad sex? A peanut butter and jelly sandwich is better than bad sex. — Billy Joel",
-        "Sex: the thing that takes up the least amount of time and causes the most amount of trouble. — John Barrymore",
-        "When I’m good, I’m very good, but when I’m bad, I’m better. ― Mae West",
-        "There are four basic human needs; food, sleep, sex and revenge. — Banksy",
-        "Dancing is a perpendicular expression of a horizontal desire. — George Bernard Shaw",
-        "Sex should be friendly. Otherwise stick to mechanical toys; it’s more sanitary. — Robert A. Heinlein",
-        "If a man doesn’t know how to dance he doesn’t know how to make love, there I said it! — Craig Ferguson",
-        "What holds the world together, as I have learned from bitter experience, is sexual intercourse. — Henry Miller",
-        "The best revenge, like the best sex, is performed slowly, and with the eyes open. — Gregory David Roberts",
-        "Sex is like air; it’s not important unless you aren’t getting any. — John Callahan",
-        "What a strange world this is when you can have as much sex as you like but love is taboo. — Jeanette Winterson",
-        "Physics is like sex: sure, it may give some practical results, but that’s not why we do it. ― Richard Feynman",
-        "To have her here in bed with me, breathing on me, her hair in my mouth — I count that something of a miracle. – Henry Miller",
-        "I am not saying renounce sex, I am saying transform it. It need not remain just biological: bring some spirituality to it. While making love, meditate too. While making love, be prayerful. Love should not be just a physical act; pour your soul into it. – Osho",
-        "The sexual embrace can only be compared with music and with prayer. – Marcus Aurelius",
-        "Sex is a momentary itch, love never lets you go. — Kingsley Amis",
-        "Sex is emotion in motion. — Mae West",
-        "Love is an ice cream sundae, with all the marvelous coverings. Sex is the cherry on top. — Jimmy Dean",
-        "Sex without love is as hollow and ridiculous as love without sex. ― Hunter S. Thompson",
-        "A gentleman holds my hand. A man pulls my hair. A soulmate will do both. — Alessandra Torre",
-        "Nobody dies from the lack of sex. It’s lack of love we die from. — Margaret Atwood",
-        "Everything in the world is about sex except sex. Sex is about power. – Oscar Wilde",
-        "Sex is always about emotions. Good sex is about free emotions; bad sex is about blocked emotions. – Deepak Chopra",
-        "Boys and girls in America have such a sad time together; sophistication demands that they submit to sex immediately without proper preliminary talk. Not courting talk  real straight talk about souls, for life is holy and every moment is precious. – Jack Kerouac"
-    ]
     private init() {
         
     }
+    
+    var allQuotes = [
+        "It’s work having a vagina. Guys don’t think that it’s work but it is. You think it shows up like that to the event? It doesn’t. Every night it’s like getting it ready for its first Quinceanera, believe me. # Amy Schumer",
+        "Good sex is like good bridge. If you don’t have a good partner, you’d better have a good hand. # Mae West",
+        "We have reason to believe that man first walked upright to free his hands for masturbation. # Lily Tomlin",
+        "If you wear a short enough skirt, the party will come to you. # Dorothy Parker",
+        "Usually I’m on top to keep the guy from escaping. # Lisa Lampanelli",
+        "In my sex fantasy, nobody ever loves me for my mind. — Nora Ephron",
+        "I think we can all agree that sleeping around is a great way to meet people. # Chelsea Handler",
+        "Women fake orgasms and men fake finances. # Suze Orman",
+        "My boyfriend and I live together, which means we don’t have sex—ever. Now that the milk is free, we’ve both become lactose intolerant. # Margaret Cho",
+        "I like threesomes with two women, not because I’m a cynical sexual predator. Oh no! But because I’m a romantic. I’m looking for “The One.” And I’ll find her more quickly if I audition two at a time. # Russell Brand",
+        "Publishing a sophisticated men’s magazine seemed to me the best possible way of fulfilling a dream I’d been nurturing ever since I was a teenager: to get laid a lot. # Hugh Hefner",
+        "Skiing is better than sex actually, because for me a good round of sex might be seven minutes. Skiing you can do for seven hours. # Spalding Gray",
+        "If I’m not interested in a woman, I’m straight-forward. Right after sex, I usually say, ‘I can’t do this anymore. Thanks for coming over!' # Vince Vaughn",
+        "It’s been so long since I’ve had sex I’ve forgotten who ties up whom. # Joan Rivers",
+        "If you want to get laid, go to college. If you want an education, go to the library. # Frank Zappa",
+        "Women need a reason to have sex. Men just need a place. # Billy Crystal",
+        "Is one expected to be a gentleman when one is stiff? – Marquis de Sade",
+        "I have no objection to anyone’s sex life as long as they don’t practice it in the street and frighten the horses. # Oscar Wilde",
+        "Sex appeal is fifty percent what you’ve got and fifty percent what people think you’ve got. # Sophia Loren",
+        "Some things are better than sex, and some are worse, but there’s nothing exactly like it. # W. C. Fields",
+        "An intellectual is a person who’s found one thing that’s more interesting than sex. # Aldous Huxley",
+        "Sex without love is merely healthy exercise. # Robert A. Heinlein",
+        "Money, it turned out, was exactly like sex, you thought of nothing else if you didn’t have it and thought of other things if you did. # James A. Baldwin",
+        "There’s nothing better than good sex. But bad sex? A peanut butter and jelly sandwich is better than bad sex. # Billy Joel",
+        "Sex: the thing that takes up the least amount of time and causes the most amount of trouble. # John Barrymore",
+        "When I’m good, I’m very good, but when I’m bad, I’m better. # Mae West",
+        "There are four basic human needs; food, sleep, sex and revenge. # Banksy",
+        "Dancing is a perpendicular expression of a horizontal desire. # George Bernard Shaw",
+        "Sex should be friendly. Otherwise stick to mechanical toys; it’s more sanitary. # Robert A. Heinlein",
+        "If a man doesn’t know how to dance he doesn’t know how to make love, there I said it! # Craig Ferguson",
+        "What holds the world together, as I have learned from bitter experience, is sexual intercourse. # Henry Miller",
+        "The best revenge, like the best sex, is performed slowly, and with the eyes open. # Gregory David Roberts",
+        "Sex is like air; it’s not important unless you aren’t getting any. # John Callahan",
+        "What a strange world this is when you can have as much sex as you like but love is taboo. # Jeanette Winterson",
+        "Physics is like sex: sure, it may give some practical results, but that’s not why we do it. # Richard Feynman",
+        "To have her here in bed with me, breathing on me, her hair in my mouth, I count that something of a miracle. # Henry Miller",
+        "I am not saying renounce sex, I am saying transform it. It need not remain just biological: bring some spirituality to it. While making love, meditate too. While making love, be prayerful. Love should not be just a physical act; pour your soul into it. # Osho",
+        "The sexual embrace can only be compared with music and with prayer. # Marcus Aurelius",
+        "Sex is a momentary itch, love never lets you go. # Kingsley Amis",
+        "Sex is emotion in motion. # Mae West",
+        "Love is an ice cream sundae, with all the marvelous coverings. Sex is the cherry on top. # Jimmy Dean",
+        "Sex without love is as hollow and ridiculous as love without sex. # Hunter S. Thompson",
+        "A gentleman holds my hand. A man pulls my hair. A soulmate will do both. # Alessandra Torre",
+        "Nobody dies from the lack of sex. It’s lack of love we die from. # Margaret Atwood",
+        "Everything in the world is about sex except sex. Sex is about power. # Oscar Wilde",
+        "Sex is always about emotions. Good sex is about free emotions; bad sex is about blocked emotions. # Deepak Chopra",
+        "Boys and girls in America have such a sad time together; sophistication demands that they submit to sex immediately without proper preliminary talk. Not courting talk  real straight talk about souls, for life is holy and every moment is precious. # Jack Kerouac",
+        "The way you make love is the way God will be with you. # Rumi",
+        "We demand that sex speak the truth and we demand that it tell us our truth, or rather, the deeply buried truth of that truth about ourselves which we think we possess in our immediate consciousness. # Michel Foucault",
+        "When sex involves all the senses intensely, it can be like a mystical experience. # Jim Morrison"
+
+
+    ]
 }
 
-//“The way you make love is the way God will be with you.” –– Rumi
-//
-//“We demand that sex speak the truth […] and we demand that it tell us our truth, or rather, the deeply buried truth of that truth about ourselves which we think we possess in our immediate consciousness.” –– Michel Foucault
-//
-//“When sex involves all the senses intensely, it can be like a mystical experience.” — Jim Morrison
-//
+
 //“The major civilizing force in the world is not religion, it is sex.” — Hugh Hefner
 //
 //“Sex is about anticipation not culmination.” ― Chloe Thurlow

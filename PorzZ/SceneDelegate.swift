@@ -36,6 +36,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         
         let porzzActivityViewController = PorzzActivityViewController()
+//        let porzzActivityViewController = UIViewController()
         porzzActivityViewController.tabBarItem = UITabBarItem(title: "Activities", image: UIImage(systemName: "list.bullet"), tag: 2)
         
 
